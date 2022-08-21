@@ -17,7 +17,7 @@ System.out.print(result.repeat(3));
         float g1h1 = g1 / (h1 * h1);
         System.out.println(g1h1);
 
-        char[] massiv  = {'a', 'b', 'c', 'd' ,'e'};
+        char[] massiv = {'a', 'b', 'c', 'd' ,'e'};
         System.out.println(massiv);
 
 
