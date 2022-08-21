@@ -1,6 +1,7 @@
 package org.lessons.lesson2;
 
 import java.awt.*;
+import java.util.Arrays;
 import java.util.Locale;
 
 public class Homework1 {
@@ -14,11 +15,14 @@ System.out.print(result.repeat(3));
         float g1 = 100;
         float h1 = 2;
         float g1h1 = g1 / (h1 * h1);
-        System.out.print(g1h1);
+        System.out.println(g1h1);
+
+        char[] massiv  = {'a', 'b', 'c', 'd' ,'e'};
+        System.out.println(massiv);
 
 
 
-
-    }
-
+                }
 }
+
+
