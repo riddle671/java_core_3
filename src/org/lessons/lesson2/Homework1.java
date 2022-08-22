@@ -1,9 +1,5 @@
 package org.lessons.lesson2;
 
-import java.awt.*;
-import java.util.Arrays;
-import java.util.Locale;
-
 public class Homework1 {
     public static void main(String[] args) {
         String hi = "                Hello ";
