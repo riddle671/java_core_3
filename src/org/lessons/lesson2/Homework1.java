@@ -19,13 +19,19 @@ public class Homework1 {
         System.out.println(g1h1);
 
 // Задача 3
-        String str1 = new String ("a,b,c,d,e");
-        System.out.println(str1);
-        String str2 = new String("a,b,c,d,e".replace('d' , 'h'));
-        System.out.println(str2);
+//        String str1 = new String ("a,b,c,d,e");
+//        System.out.println(str1);
+//        String str2 = new String("a,b,c,d,e".replace('d' , 'h'));
+//        System.out.println(str2);
+//
+//        String str3 = new String(new char[] {'a', 'b', 'c', 'd', 'e'});
+//       System.out.println(str3);
 
-        String str3 = new String(new char[] {'a', 'b', 'c', 'd', 'e'});
-        System.out.println(str3);
+        char[] answer3 = {'a', 'b', 'c', 'd' , 'e'};
+        String stringFromCharArray = String.valueOf(answer3);
+        System.out.println(stringFromCharArray);
+        String otvet = stringFromCharArray.replace('d' , 'h');
+        System.out.println(otvet);
     }
 }
 
