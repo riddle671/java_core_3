@@ -18,26 +18,22 @@ public class Homework1 {
         System.out.println(g1h1);
 
 // Задача 3
-//        String str1 = new String ("a,b,c,d,e");
-//        System.out.println(str1);
-//        String str2 = new String("a,b,c,d,e".replace('d' , 'h'));
-//        System.out.println(str2);
-//
-//        String str3 = new String(new char[] {'a', 'b', 'c', 'd', 'e'});
-//       System.out.println(str3);
-
-        char[] answer3 = {'a', 'b', 'c', 'd', 'e'};
-        String stringFromCharArray = String.valueOf(answer3);
-        System.out.println(stringFromCharArray);
-
-        String otvet = stringFromCharArray.replace('d', 'h');
-        System.out.println(otvet);
+        char[] massiv = {'a', 'b', 'c', 'd' , 'e'};
+        String stroka = String.valueOf(massiv);
+        System.out.println(stroka);
+        massiv[3]= 'h';
+        String stroka2 = String.valueOf(massiv);
+        System.out.println(stroka2);
 
 // Задача 4
         String buk = "a";
         for (int i = 1; i < 101; i++) {
             System.out.print(i + buk + " ");
         }
+
+// Задача 5
+
+
 
 
 
