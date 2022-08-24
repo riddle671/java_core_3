@@ -1,7 +1,6 @@
 package org.lessons.lesson2;
 
-import java.awt.*;
-import java.util.Locale;
+
 
 public class Homework1 {
     public static void main(String[] args) {
@@ -27,11 +26,25 @@ public class Homework1 {
 //        String str3 = new String(new char[] {'a', 'b', 'c', 'd', 'e'});
 //       System.out.println(str3);
 
-        char[] answer3 = {'a', 'b', 'c', 'd' , 'e'};
+        char[] answer3 = {'a', 'b', 'c', 'd', 'e'};
         String stringFromCharArray = String.valueOf(answer3);
         System.out.println(stringFromCharArray);
-        String otvet = stringFromCharArray.replace('d' , 'h');
+
+        String otvet = stringFromCharArray.replace('d', 'h');
         System.out.println(otvet);
+
+// Задача 4
+        String buk = "a";
+        for (int i = 1; i < 101; i++) {
+            System.out.print(i + buk + " ");
+        }
+
+
+
+
+
+
     }
 }
+
 
