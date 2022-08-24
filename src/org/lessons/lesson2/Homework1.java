@@ -43,6 +43,15 @@ public class Homework1 {
             System.out.println("Пошел в университет");
         }
 
+// Задача 6
+
+
+
+
+
+
+
+
 
         }
 
