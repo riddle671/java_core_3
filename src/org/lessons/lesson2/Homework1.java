@@ -1,6 +1,8 @@
 package org.lessons.lesson2;
 
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
 
 public class Homework1 {
     public static void main(String[] args) {
@@ -31,7 +33,8 @@ public class Homework1 {
             System.out.print(i + buk + " ");
         }
 
-// Задача 5
+
+// Задача 5 ( Не переносит на следующую строку)
         int ageChildren = 11;
         if (ageChildren < 6){
         System.out.println("Пошел в сад");}
@@ -43,7 +46,42 @@ public class Homework1 {
             System.out.println("Пошел в университет");
         }
 
-// Задача 6
+// Задача 1 продвин.  (спросить про Integer)
+
+        String s = "234";
+        int i = Integer.parseInt(s.trim());
+        System.out.println("int i = " + i);
+
+// Задача 2
+        int a = 3;
+        int b = 5;
+        int ab =(a+b)^2;
+        System.out.println(ab);
+
+// Задача 3
+
+
+
+
+        int[] number1 = {1, 2, 5, 7, 10};
+        int[] number2 = {2, 3, 2, 17, 15};
+
+
+
+
+        int[]aa = {1,2,3,4};
+        int[] bb = {4, 16, 1, 2, 3, 22};
+        int[] c = new int[aa.length + bb.length];
+        int count = 0;
+        for (int ii = 0; ii < aa.length; ii++) {
+            c[ii] = aa[ii];
+            count++;
+        }
+        for (int j = 0; j < bb.length; j++) {
+            c[count++] = bb[j];
+        }
+        for (int ii = 0; i < c.length; ii++)
+            System.out.print(c[ii] + " ");
 
 
 
@@ -51,11 +89,21 @@ public class Homework1 {
 
 
 
-
-
+            }
         }
 
-    }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
