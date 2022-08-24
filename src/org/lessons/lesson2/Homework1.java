@@ -32,15 +32,21 @@ public class Homework1 {
         }
 
 // Задача 5
+        int ageChildren = 11;
+        if (ageChildren < 6){
+        System.out.println("Пошел в сад");}
+        else if (ageChildren < 11) {
+            System.out.println("Пошел в младушую школу");}
+        else if (ageChildren < 17){
+            System.out.println("Пошел в среднюю школу");}
+        else {
+            System.out.println("Пошел в университет");
+        }
 
 
-
-
-
-
-
+        }
 
     }
-}
+
 
 
