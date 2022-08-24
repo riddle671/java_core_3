@@ -46,11 +46,12 @@ public class Homework1 {
             System.out.println("Пошел в университет");
         }
 
-// Задача 1 продвин.  (спросить про Integer)
+// Задача 1 продвин.  (спросить про Integer) parseInt() - преобр. строку в число
+
 
         String s = "234";
-        int i = Integer.parseInt(s.trim());
-        System.out.println("int i = " + i);
+        int i = Integer.parseInt(s);
+        System.out.println(i);
 
 // Задача 2
         int a = 3;
