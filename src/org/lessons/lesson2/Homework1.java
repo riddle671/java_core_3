@@ -79,6 +79,39 @@ public class Homework1 {
 
 
 
+
+
+
+// Задача 6
+        boolean chicken = true;
+        boolean vegetables = false;
+        boolean sour = true;
+        boolean toast = false;
+        boolean sausage = false;
+        boolean eggs = false;
+
+        if (chicken && vegetables && sour && toast){
+            System.out.println("Цезарь");}
+        else if (vegetables && sausage || chicken && eggs){
+            System.out.println("Оливье");}
+        else if (vegetables){
+        System.out.println("Овощной");}
+        else
+            System.out.println("У меня ничего нет");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             }
         }
 
