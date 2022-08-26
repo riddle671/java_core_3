@@ -61,32 +61,21 @@ public class Homework1 {
 
 // Задача 3
 
-
-
-
-        int[] number1 = {1, 2, 5, 7, 10};
-        int[] number2 = {2, 3, 2, 17, 15};
-
-
-
-
-        int[]aa = {1,2,3,4};
-        int[] bb = {4, 16, 1, 2, 3, 22};
-        int[] c = new int[aa.length + bb.length];
-        int count = 0;
-        for (int ii = 0; ii < aa.length; ii++) {
-            c[ii] = aa[ii];
-            count++;
+        int[] array1 = {1,2,5,7,10};
+        System.out.print(Arrays.toString(array1));
+        int[] array2 = {2,3,2,17,15};
+        System.out.print(Arrays.toString(array2));
+        int[] arrayTemp = new int[array1.length];
+        for (int j = 0; j < arrayTemp.length; j++) {
+            arrayTemp[j] = array1[j] * array2[j];
+            System.out.println(Arrays.toString(arrayTemp));
         }
-        for (int j = 0; j < bb.length; j++) {
-            c[count++] = bb[j];
-        }
-        for (int ii = 0; i < c.length; ii++)
-            System.out.print(c[ii] + " ");
+// Задача 4
+        String Hello1 = "Hello world";
+        String Hello2 = Hello1.replaceAll("l" , "r");
+        System.out.println(Hello2.toUpperCase());
 
-
-
-
+// Задача 5
 
 
 
