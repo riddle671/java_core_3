@@ -76,8 +76,13 @@ public class Homework1 {
         System.out.println(Hello2.toUpperCase());
 
 // Задача 5
-
-
+//        double increment = 0.01123;
+//        double result5 = 0;
+//        double [] result33 = new double[20];
+//         for (int k = 0; k < 10 ; k++) {
+//
+//       }
+//        System.out.println(Arrays.toString(result33));
 
 
 
