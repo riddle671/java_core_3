@@ -2,18 +2,24 @@ package org.homework2.task1;
 
 public class Squirrel {
 
-        int age;
-        int weigt;
+        private int age;
+        private int weigt;
         // длина шерсти
-        int coatlength;
+        private int coatlength;
         // цвет шерсти
-        String coatcolor;
+        private String coatcolor;
 
 public Squirrel(int squirrelAge, int squirrelWeigt, int squirrelCoatlegth, String squirrelCoatcolor){
         this.age = squirrelAge;
         this.weigt = squirrelWeigt;
         this.coatlength = squirrelCoatlegth;
-        this. coatcolor = squirrelCoatcolor;
+        this.coatcolor = squirrelCoatcolor;
+}
+public void getInfo(){
+        System.out.println(this.age);
+        System.out.println(this.weigt);
+        System.out.println(this.coatlength);
+        System.out.println(this.coatcolor);
 }
 
         @Override
