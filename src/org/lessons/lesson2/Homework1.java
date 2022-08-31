@@ -1,7 +1,6 @@
 package org.lessons.lesson2;
 
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class Homework1 {
@@ -25,12 +24,13 @@ public class Homework1 {
         System.out.println(stroka);
         massiv[3]= 'h';
         String stroka2 = String.valueOf(massiv);
-        System.out.println(stroka2);
+        System.out.print(stroka2 + '\n');
 
 // Задача 4
         String buk = "a";
         for (int i = 1; i < 101; i++) {
             System.out.print(i + buk + " ");
+            System.out.println();
         }
 
 
@@ -76,13 +76,7 @@ public class Homework1 {
         System.out.println(Hello2.toUpperCase());
 
 // Задача 5
-//        double increment = 0.01123;
-//        double result5 = 0;
-//        double [] result33 = new double[20];
-//         for (int k = 0; k < 10 ; k++) {
-//
-//       }
-//        System.out.println(Arrays.toString(result33));
+
 
 
 
@@ -91,24 +85,18 @@ public class Homework1 {
         boolean chicken = true;
         boolean vegetables = false;
         boolean sour = true;
-        boolean toast = false;
-        boolean sausage = false;
-        boolean eggs = false;
+        boolean toast = true;
+        boolean sausage = true;
+        boolean eggs = true;
 
         if (chicken && vegetables && sour && toast){
             System.out.println("Цезарь");}
         else if (vegetables && sausage || chicken && eggs){
             System.out.println("Оливье");}
         else if (vegetables){
-        System.out.println("Овощной");}
+            System.out.println("Овощной");}
         else
             System.out.println("У меня ничего нет");
-
-
-
-
-
-
 
 
 
