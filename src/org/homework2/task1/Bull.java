@@ -1,7 +1,6 @@
 package org.homework2.task1;
 
 public class Bull {
-
         private int age;
         private int weigt;
         // длина шерсти
@@ -17,13 +16,21 @@ public Bull(int bullAge, int bullWeigt, int bullCoatlegth, String bullCoatcolor)
         this.coatcolor = bullCoatcolor;
       }
       public int getAge(){
-        return age + 1;
+      return age;
+      }
+      public String getCoatcolor(){
+        return  coatcolor;
+
       }
 
        public void setAge(int newhumanAge){
            this.age = newhumanAge;
+                     }
+       public void setCoatcolor (String newCoatcolor){
+        this.coatcolor = newCoatcolor;
 
-          }
+       }
+
 
 
 

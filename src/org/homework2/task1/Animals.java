@@ -5,8 +5,10 @@ public class Animals {
 
       Bull bull = new Bull(5,750,20, "Black" );
       Squirrel squirrel = new Squirrel(2, 1, 3, "Broun");
+      bull.setAge(14);
+      bull.setCoatcolor("Red");
+      System.out.println(bull.getCoatcolor());
 
-      System.out.println(bull.getAge());
 
 
    }
