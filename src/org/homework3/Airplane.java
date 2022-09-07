@@ -1,4 +1,15 @@
 package org.homework3;
 
-public class Airplane {
+public class Airplane implements Canfly {
+
+
+
+
+
+
+
+
+
+
+
 }

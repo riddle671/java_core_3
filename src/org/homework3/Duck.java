@@ -1,4 +1,15 @@
 package org.homework3;
 
-public class Duck {
+public class Duck implements Canfly {
+
+    boolean isInjured;
+
+
+
+
+
+
+
+
+
 }
