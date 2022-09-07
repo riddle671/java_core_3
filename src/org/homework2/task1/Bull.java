@@ -1,7 +1,7 @@
 package org.homework2.task1;
 
 public class Bull {
-        private int age;
+         int age;
         private int weigt;
         // длина шерсти
         private int coatlength;

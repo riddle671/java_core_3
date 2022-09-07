@@ -4,11 +4,10 @@ public class Duck implements Canfly {
 
     boolean isInjured;
 
+    public Duck(boolean isInjured) {
+        this.isInjured = isInjured;
 
-
-
-
-
+    }
 
 
 
