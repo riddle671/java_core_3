@@ -1,10 +1,9 @@
 package org.homework3;
 
-public class Airplane implements Canfly {
+public class Airplane  {
 
- int countPassengers;
 
-    public Airplane(int countPassengers) {
-        this.countPassengers = countPassengers;
+    public void swim() {
+        System.out.println("pfpfpf");
     }
 }
